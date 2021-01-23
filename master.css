@@ -1,0 +1,80 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contenitore{
+  width: 1200px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  padding: 120px;
+  border-radius: 20px;
+}
+
+/* start top part setup */
+header {
+  color: rgb(0,255,0);
+  text-align: center;
+}
+
+header > img{
+  width: 200px;
+}
+
+h1{
+  margin: 5px;
+}
+
+.button-section{
+  padding: 10px;
+  background-color: rgb(0,255,0);
+  text-align: center;
+}
+/* stop top part setup */
+
+/* main setup */
+main{
+  color: white;
+}
+
+h5{
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+.position, .charge{
+  font-size: 12px;
+}
+
+.position:before{
+  content: "\21A6";
+}
+
+.charge > div {
+  border-radius: 5px;
+  height: 20px;
+}
+
+
+/* start level of battery charge */
+.medium{
+  width: 300px;
+  background-color: rgb(232,172,69);
+}
+
+.full{
+  width: 450px;
+  background-color: rgb(0,255,0);
+}
+
+.low{
+  width: 150px;
+  background-color: rgb(219,81,81);
+}
+/* stop level of battery charge */
